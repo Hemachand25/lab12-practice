@@ -71,7 +71,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: hemachand0425/k8-backend-pract:latest  # <-- change this
+          image: hemachand0425/k8-backend-practice:latest  # <-- change this
           ports:
             - containerPort: 2000
 ---
@@ -110,7 +110,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: hemachand0425/k8-frontend-pract:latest  # <-- change this
+          image: hemachand0425/k8-frontend-practice:latest  # <-- change this
           ports:
             - containerPort: 80
 ---
